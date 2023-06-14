@@ -13,7 +13,7 @@ The primary purpose of this library is to simplify the way applications handle e
 ### Installation
 
 ```shell
-go get github.com/yourusername/ezenvconfig
+go get github.com/problem-company-toolkit/ezenvconfig
 ```
 
 ### Basic Usage
@@ -24,7 +24,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/yourusername/ezenvconfig"
+	"github.com/problem-company-toolkit/ezenvconfig"
 )
 
 func main() {
