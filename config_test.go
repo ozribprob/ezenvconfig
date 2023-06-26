@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/problem-company-toolkit/ezenvconfig"
+	"github.com/ozribprob/ezenvconfig"
 
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
