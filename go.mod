@@ -1,4 +1,4 @@
-module github.com/problem-company-toolkit/ezenvconfig
+module github.com/ozribprob/ezenvconfig
 
 go 1.19
 
