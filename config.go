@@ -43,8 +43,16 @@ func ExtractFromEnv(entry Entry) (value string, err error) {
 		return value, nil
 	}
 
+	if entry.OnNotFound != nil {
+		entry.OnNotFound()
+	}
+
 	if entry.Default != "" {
 		return entry.Default, nil
+	}
+
+	if entry.Optional {
+		return
 	}
 
 	err = NoValueForEntry(entry.Name, entry.Aliases)
